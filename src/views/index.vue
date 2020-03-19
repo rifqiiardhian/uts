@@ -35,7 +35,7 @@ export default {
     };
   },
   async created() {
-    const BASEURI = 'https://my-json-server.typicode.com/rifqiiardhian/uts/db';
+    const BASEURI = 'https://my-json-server.typicode.com/rifqiiardhian/dbuts/db';
     axios.get(BASEURI).then((result) => {
       this.products = result.data.products;
     });
